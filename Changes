@@ -1,5 +1,8 @@
 Revision history for Perl extension PDL::NamedArgs.
 
+0.12  Sat Jul 28 22:41:02 PDT 2001
+	- Fixed circular dependency on PDL::R::math
+
 0.11  Thu Jul 19 23:23:00 PDT 2001
 	- Forgot to scope arg_names, causing rentrancy problems
 
